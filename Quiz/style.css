@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --box-shadow:  rgba(0, 0, 0, 0.24) 0px 3px 8px
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    /* background-color: #0D479A; */
+    text-align: center;
+}
+
+section{
+    max-width: 1200px;
+    background-color: #0D479A;
+    padding: 30px;
+    margin: 30px auto;
+    border-radius: 5px;
+}
+
+.heading{
+    color: white;
+    margin: 10px auto 40px auto;
+}
+
+.heading .title{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.heading .subtitle{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.result{
+    background-color: white;
+    min-width: 350px;
+    max-width: 400px;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+}
+
+.result p:first-child{
+    padding: 10px 20px;
+}
+
+.reload button{
+    background-color: #03A369;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 12px 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.reload button:hover{
+    cursor: pointer;
+}
+
+.quiz-form{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.question{
+    background-color: white;
+    text-align: left;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+
+}
+
+.question > *{
+    font-size: 18px;
+}
+
+
+.option{
+    margin-left: 10px;
+}
+
+.submit input{
+    margin: 10px auto 20px;
+    font-size: 22px;
+    background-color: #03A369;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+
+}
+
+.submit input:hover{
+    cursor: pointer;
+}
+
+.wrong{
+    background-color: #FFD1D1;
+}
+.correct{
+    background-color: #C8FFDF;
+}
